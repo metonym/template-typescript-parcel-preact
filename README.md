@@ -1,26 +1,18 @@
-# template-typescript
+# template-typescript-parcel-react
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript)
+[![Build Status](https://travis-ci.com/metonym/template-typescript-parcel-preact.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript-parcel-preact)
 
-> Base template for TypeScript projects
-
-This project provides basic scaffolding for developing and building TypeScript libraries.
+> Template using TypeScript, Parcel and Preact.
 
 ## Overview
 
-### Develop
-
-This command builds the project in watch mode. The source (i.e. entry) is in `src`, which is outputted in the designated folder `lib`.
-
-The destination folder can be changed through the `outDir` value in `tsconfig.json`.
+### Start
 
 ```bash
-yarn develop
+yarn start
 ```
 
 ### Build
-
-This command removes the `lib` folder and builds the project.
 
 ```bash
 yarn build
