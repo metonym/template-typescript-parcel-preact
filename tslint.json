@@ -2,6 +2,6 @@
   "extends": ["tslint:latest", "tslint-config-prettier"],
   "rules": {},
   "linterOptions": {
-    "exclude": ["node_modules/**", "lib/**"]
+    "exclude": ["./node_modules/**", "./lib/**", "./dist/**"]
   }
 }
