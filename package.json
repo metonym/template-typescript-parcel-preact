@@ -8,7 +8,7 @@
     "start": "parcel src/index.html",
     "prebuild": "rm -rf .cache && rm -rf dist",
     "build": "parcel build src/index.html",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "tslint --fix -p . -c tslint.json"
   },
   "dependencies": {
@@ -33,5 +33,24 @@
       "pre-commit": "yarn lint && pretty-quick --staged",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
+  },
+  "prettier": {
+    "tabWidth": 2,
+    "semi": true,
+    "singleQuote": true
+  },
+  "jest": {
+    "preset": "ts-jest"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "resolutions": {
+    "**/**/lodash": "^4.17.12",
+    "**/**/mixin-deep": "^2.0.1",
+    "**/**/safer-eval": "^1.3.4",
+    "**/**/set-value": "^3.0.1"
   }
 }
