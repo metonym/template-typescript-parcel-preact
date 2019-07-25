@@ -1,6 +1,6 @@
 # template-typescript-parcel-react
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript-parcel-preact.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript-parcel-preact)
+[![Build Status](https://travis-ci.com/metonym/template-typescript-parcel-preact.svg?branch=master)](https://travis-ci.com/metonym/template-typescript-parcel-preact)
 
 > Template using TypeScript, Parcel and Preact.
 
