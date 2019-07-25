@@ -1,7 +1,9 @@
-import { h } from 'preact';
+import { Component, Fragment, h } from 'preact';
 
-function App() {
-  return <div>App</div>;
+class App extends Component {
+  public render() {
+    return <Fragment>App</Fragment>;
+  }
 }
 
 export default App;
