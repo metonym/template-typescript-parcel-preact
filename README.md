@@ -1,8 +1,9 @@
 # template-typescript-parcel-react
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript-parcel-preact.svg?branch=master)](https://travis-ci.com/metonym/template-typescript-parcel-preact)
+[![Build][build]][build-badge]
+[![Coverage][codecov-shield]][codecov]
 
-> Template using TypeScript, Parcel and Preact.
+> Template to develop Preact apps using Parcel.
 
 ## Overview
 
@@ -37,3 +38,8 @@ This template uses `Travis CI` to build and test remote changes.
 ## License
 
 [MIT](LICENSE)
+
+[build]: https://travis-ci.com/metonym/template-typescript-parcel-preact.svg?branch=master
+[build-badge]: https://travis-ci.com/metonym/template-typescript-parcel-preact
+[codecov]: https://codecov.io/gh/metonym/template-typescript-parcel-preact
+[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript-parcel-preact.svg

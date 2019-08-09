@@ -2,13 +2,14 @@
   "name": "template-typescript-parcel-preact",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Template using TypeScript, Parcel and Preact",
+  "description": "Template to develop Preact apps using Parcel",
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel src/index.html",
     "build": "rm -rf .cache dist && parcel build src/index.html",
+    "lint": "tslint --fix -p . -c tslint.json",
     "test": "jest --coverage",
-    "lint": "tslint --fix -p . -c tslint.json"
+    "test:tdd": "jest --watch"
   },
   "dependencies": {
     "preact": "^10.0.0-rc.1"
@@ -30,6 +31,7 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint && pretty-quick --staged",
+      "pre-push": "yarn test",
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
