@@ -2900,6 +2900,11 @@ fb-watchman@^2.0.0:
   dependencies:
     bser "^2.0.0"
 
+fclone@^1.0.11:
+  version "1.0.11"
+  resolved "https://registry.yarnpkg.com/fclone/-/fclone-1.0.11.tgz#10e85da38bfea7fc599341c296ee1d77266ee640"
+  integrity sha1-EOhdo4v+p/xZk0HClu4ddyZu5kA=
+
 filesize@^3.6.0:
   version "3.6.1"
   resolved "https://registry.yarnpkg.com/filesize/-/filesize-3.6.1.tgz#090bb3ee01b6f801a8a8be99d31710b3422bb317"
@@ -5672,6 +5677,13 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.11, postcss@^7.0.5:
     chalk "^2.4.2"
     source-map "^0.6.1"
     supports-color "^6.1.0"
+
+posthtml-expressions@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/posthtml-expressions/-/posthtml-expressions-1.1.1.tgz#7663a1a5a39259dcad44b67c897c34eb420d942c"
+  integrity sha512-89Afc2rys3YCs/G+SxV3jVgWuQ/SSPujgYVIJj9raKkQjBbHn6RxmZpiJBbru/WEtVp+/s705DXCk4MfnvsJoQ==
+  dependencies:
+    fclone "^1.0.11"
 
 posthtml-parser@^0.4.0, posthtml-parser@^0.4.1:
   version "0.4.1"
