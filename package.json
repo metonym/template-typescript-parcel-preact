@@ -5,8 +5,8 @@
   "description": "Template to develop Preact apps using Parcel",
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
-    "start": "parcel src/index.html",
-    "build": "rm -rf .cache dist && parcel build src/index.html",
+    "start": "parcel public/index.html",
+    "build": "rm -rf dist && parcel build public/index.html --no-source-maps",
     "lint": "tslint --fix -p . -c tslint.json",
     "test": "jest --coverage",
     "test:tdd": "jest --watch"
@@ -17,8 +17,8 @@
   "devDependencies": {
     "@commitlint/cli": "^8.1.0",
     "@commitlint/config-conventional": "^8.1.0",
-    "@types/jest": "^24.0.16",
-    "husky": "^3.0.2",
+    "@types/jest": "^24.0.17",
+    "husky": "^3.0.3",
     "jest": "^24.8.0",
     "parcel-bundler": "^1.12.3",
     "prettier": "^1.18.2",
