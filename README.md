@@ -1,4 +1,4 @@
-# template-typescript-parcel-react
+# template-typescript-parcel-preact
 
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
