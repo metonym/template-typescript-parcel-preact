@@ -6,7 +6,7 @@
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "rm -rf dist && parcel build public/index.html --no-source-maps",
+    "build": "parcel build public/index.html --no-source-maps",
     "lint": "tslint --fix -p . -c tslint.json",
     "test": "jest --coverage",
     "test:tdd": "jest --watch"
