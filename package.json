@@ -2,7 +2,7 @@
   "name": "template-typescript-parcel-preact",
   "version": "0.1.0",
   "license": "MIT",
-  "description": "Template to develop Preact apps using Parcel",
+  "description": "Template to build Preact apps using Parcel",
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel public/index.html",

@@ -3,7 +3,7 @@
 [![Build][build]][build-badge]
 [![Coverage][codecov-shield]][codecov]
 
-> Template to develop Preact apps using Parcel.
+> Template to build Preact apps using Parcel.
 
 ## Overview
 
