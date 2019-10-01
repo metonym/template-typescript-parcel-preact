@@ -6,7 +6,7 @@
   "author": "Eric Liu (https://github.com/metonym)",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html --no-source-maps",
+    "build": "rimraf dist && parcel build public/index.html --no-source-maps",
     "lint": "tslint --fix -p . -c tslint.json",
     "test": "jest --coverage",
     "test:tdd": "jest --watch"
@@ -24,6 +24,7 @@
     "posthtml-expressions": "^1.1.1",
     "prettier": "^1.18.2",
     "pretty-quick": "^1.11.1",
+    "rimraf": "^3.0.0",
     "ts-jest": "^24.1.0",
     "tslint": "^5.20.0",
     "tslint-config-prettier": "^1.18.0",
