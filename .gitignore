@@ -1,7 +1,7 @@
-/node_modules
 /.cache
-/dist
 /coverage
+/dist
+/node_modules
 .DS_Store
 yarn-debug.log*
 yarn-error.log*
