@@ -5,27 +5,38 @@
 
 > Template to build Preact apps using Parcel.
 
-## Overview
+## Getting Started
 
-### Start
-
-```bash
-yarn start
-```
-
-### Build
+Clone the template:
 
 ```bash
-yarn build
+git clone git@github.com:metonym/template-typescript-parcel-preact.git
+cd template-typescript-parcel-preact
 ```
 
-### Test
-
-This command runs tests located in the `tests` folder.
+Install its dependencies:
 
 ```bash
-yarn test
+yarn install
 ```
+
+## Available Scripts
+
+### `yarn start`
+
+Runs the project in development mode and watches for any changes.
+
+### `yarn build`
+
+Builds the project for production.
+
+### `yarn test`
+
+Runs test suites and generates a coverage report.
+
+### `yarn test:tdd`
+
+Runs tests in Test-driven Development (TDD) mode.
 
 ## Linting, formatting and committing
 
