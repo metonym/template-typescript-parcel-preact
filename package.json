@@ -11,7 +11,7 @@
     "test:tdd": "jest --watch"
   },
   "dependencies": {
-    "preact": "^10.1.1"
+    "preact": "^10.2.1"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
